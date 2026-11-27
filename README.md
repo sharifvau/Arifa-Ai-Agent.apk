@@ -14,7 +14,7 @@ Your Personal AI Assistant – Built by Emon
 📲 Download ARIFA AI
 
 <p align="center">
-  <a href="https://github.com/sharifvau/Arifa-Ai-Agent.apk/raw/refs/heads/main/Arifa-Ai-Agent.apk">
+  <a href="https://github.com/sharifvau/Arifa-Ai-Agent.apk/releases/latest/download/Arifa-Ai-Agent.apk">
     <img src="https://img.shields.io/badge/⬇%20DOWNLOAD-ARIFA%20AI%20APK-2EA44F?style=for-the-badge&logo=android&logoColor=white" />
   </a>
 </p><p align="center">
@@ -22,6 +22,23 @@ Your Personal AI Assistant – Built by Emon
 </p><p align="center">
   <a href="https://t.me/EmonUpdates/51">📥 Alternative Download / APK Information</a>
 </p>---
+
+## 📊 Repository Statistics
+
+<!-- REPO_STATS_START -->
+| Metric | Count |
+| --- | ---: |
+| Repository views (last 14 days) | 60 total · 6 unique |
+| Repository clones (last 14 days) | 74 total · 30 unique |
+| APK downloads (all GitHub Releases) | 0 |
+| Latest APK release | No APK release found |
+| Traffic data updated (UTC) | 2026-11-27T13:10:51Z |
+| Stats refreshed (UTC) | 2026-11-27T13:10:51Z |
+<!-- REPO_STATS_END -->
+
+Views and clones come from GitHub's rolling 14-day traffic data. APK downloads count GitHub Release asset downloads, not unique people. To enable view and clone counts, create a fine-grained personal access token for this repository with **Administration: read-only** permission, then save it in **Settings → Secrets and variables → Actions** as `TRAFFIC_TOKEN`. The workflow runs daily, after a release is published, or manually from the Actions tab.
+
+The live data is also available in [`stats.json`](stats.json). Future release assets ending in `.apk` will be included automatically.
 
 🌟 What is ARIFA AI?
 

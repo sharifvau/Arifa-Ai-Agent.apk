@@ -1,0 +1,42 @@
+name: Update repository statistics
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-statistics
+  cancel-in-progress: true
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Refresh traffic and APK release-download statistics
+        run: python3 scripts/update_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update repository statistics"
+            git push origin HEAD:main
+          else
+            echo "Statistics have not changed."
+          fi
