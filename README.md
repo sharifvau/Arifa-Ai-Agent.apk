@@ -31,9 +31,9 @@ Your Personal AI Assistant – Built by Emon
 | Repository views (last 14 days) | 60 total · 6 unique |
 | Repository clones (last 14 days) | 74 total · 30 unique |
 | APK downloads (all GitHub Releases) | 0 |
-| Latest APK release | No APK release found |
+| Latest APK release | v2.1 · 0 downloads |
 | Traffic data updated (UTC) | 2026-11-27T13:10:51Z |
-| Stats refreshed (UTC) | 2026-11-27T13:10:51Z |
+| Stats refreshed (UTC) | 2026-11-27T13:11:38Z |
 <!-- REPO_STATS_END -->
 
 Views and clones come from GitHub's rolling 14-day traffic data. APK downloads count GitHub Release asset downloads, not unique people. To enable view and clone counts, create a fine-grained personal access token for this repository with **Administration: read-only** permission, then save it in **Settings → Secrets and variables → Actions** as `TRAFFIC_TOKEN`. The workflow runs daily, after a release is published, or manually from the Actions tab.

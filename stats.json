@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:10:51Z",
+  "updated_at": "2026-11-27T13:11:38Z",
   "traffic_updated_at": "2026-11-27T13:10:51Z",
   "traffic_window_days": 14,
   "traffic": {
@@ -159,7 +159,22 @@
   "apk_downloads": {
     "count_type": "GitHub Release APK asset downloads; not unique people",
     "total": 0,
-    "releases": []
+    "releases": [
+      {
+        "tag": "v2.1",
+        "name": "ARIFA AI Agent v2.1",
+        "published_at": "2026-11-27T13:11:26Z",
+        "downloads": 0,
+        "assets": [
+          {
+            "name": "Arifa-Ai-Agent.apk",
+            "downloads": 0,
+            "size_bytes": 65661402,
+            "url": "https://github.com/sharifvau/Arifa-Ai-Agent.apk/releases/download/v2.1/Arifa-Ai-Agent.apk"
+          }
+        ]
+      }
+    ]
   },
   "popular_referrers": [
     {
@@ -173,5 +188,7 @@
       "uniques": 1
     }
   ],
-  "errors": []
+  "errors": [
+    "TRAFFIC_TOKEN is not configured; traffic data was not refreshed"
+  ]
 }
